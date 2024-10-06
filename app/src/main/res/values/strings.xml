@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BirdViewApp</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="kilometres_miles">Kilometres/Miles</string>
+    <string name="maximum_distance">Maximum Distance:</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoibnNvdm8tbWJvd2VuaSIsImEiOiJjbTF2MmI3N2kwN29xMmpzYnVnNWVzeHY3In0.9zn0bZx7hz3PXAeu8YyZ8g"</string>
+</resources>

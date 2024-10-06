@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapFragment">
+
+    <com.mapbox.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mapbox_cameraBearing="0.0"
+        app:mapbox_cameraPitch="0.0"
+        app:mapbox_cameraTargetLat="39.5"
+        app:mapbox_cameraTargetLng="-98.0"
+        app:mapbox_cameraZoom="2.0" />
+
+    <ImageView
+        android:id="@+id/zoomInBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/zoomOutBtn"
+        app:layout_constraintEnd_toEndOf="@+id/zoomOutBtn"
+        app:layout_constraintStart_toStartOf="@+id/zoomOutBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_zoomin_24" />
+
+    <ImageView
+        android:id="@+id/zoomOutBtn"
+        android:layout_width="58dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zoomInBtn"
+        app:srcCompat="@drawable/baseline_zoomout_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
